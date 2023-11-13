@@ -22,7 +22,7 @@ public class Main {
                         System.exit(0);
                         break;
                 }
-            }else {System.out.println("błąd");}
+            }else {System.out.println("blad");}
         }
     }
 }
