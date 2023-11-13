@@ -4,12 +4,12 @@ public class Kwadrat {
     Kwadrat(){
 
         double bok;
-        System.out.println("podaj długość boku ");
+        System.out.println("dlugosc bokow ");
         bok=scan.nextDouble();
 
         if (bok>0) {
             double pole = bok * bok;
-            System.out.println("pole wynosi:" + pole);
-        }else {System.out.println("złe paramtery kwadratu");}
+            System.out.println("pole:" + pole);
+        }else {System.out.println("zle wymiary");}
     }
 }
