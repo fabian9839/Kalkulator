@@ -4,13 +4,13 @@ public class Trojkat {
     Trojkat(){
 
         double bok,wys;
-        System.out.println("długość podstawy: ");
+        System.out.println("Wymiary Podstawy: ");
         bok=scan.nextDouble();
-        System.out.println("długość wysokości: ");
+        System.out.println("Wymiary wysokości: ");
         wys=scan.nextDouble();
 
         if (bok>0 && wys>0){
-            System.out.println("pole wynosi: " + (bok * wys / 2));
-        }else {System.out.println("złe parametry trójkąta");}
+            System.out.println("Pole: " + (bok * wys / 2));
+        }else {System.out.println("Zle wymiary");}
     }
 }
